@@ -4,11 +4,11 @@ function login(username, password) {
 }
 
 module.exports = { login };
+<<<<<<< HEAD
 function checkCredentials(username, password) {  // опечатка в названии
     return username && password;
 }
 
-console.log('Debug: auth module loaded');  // отладочный код
 
 function login(username, password) {
     if (checkCredentals(username, password)) {
@@ -16,3 +16,13 @@ function login(username, password) {
     }
     return { success: false };
 }
+=======
+function checkCredentals(username, password) {  // опечатка в названии
+    return username && password;
+}
+<<<<<<< HEAD
+>>>>>>> fe2d934 (Add credentals check)
+=======
+
+console.log('Debug: auth module loaded');  // отладочный код
+>>>>>>> 1b13b16 (WIP: debugging)
